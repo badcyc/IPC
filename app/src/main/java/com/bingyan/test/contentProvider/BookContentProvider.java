@@ -1,4 +1,4 @@
-package com.bingyan.test.sql;
+package com.bingyan.test.contentProvider;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

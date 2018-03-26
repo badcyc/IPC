@@ -1,4 +1,4 @@
-package com.bingyan.test.sql;
+package com.bingyan.test.contentProvider;
 
 /**
  * Created by cyc20 on 2018/3/26.

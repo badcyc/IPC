@@ -1,13 +1,11 @@
-package com.bingyan.test.sql;
+package com.bingyan.test.contentProvider;
 
 import android.content.Context;
-import android.content.UriMatcher;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.net.Uri;
 
-import static com.bingyan.test.sql.BookContentProvider.BOOK_TABLE_NAME;
-import static com.bingyan.test.sql.BookContentProvider.USER_TABLE_NAME;
+import static com.bingyan.test.contentProvider.BookContentProvider.BOOK_TABLE_NAME;
+import static com.bingyan.test.contentProvider.BookContentProvider.USER_TABLE_NAME;
 
 /**
  * Created by cyc20 on 2018/3/26.

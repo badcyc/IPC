@@ -19,11 +19,11 @@
         <service android:name=".BookManagerService"
             android:process=":remote"/>
         <provider
-            android:authorities="com.bingyan.test.sql.BookContentProvider"
-            android:name=".sql.BookContentProvider"
+            android:authorities="com.bingyan.test.contentProvider.BookContentProvider"
+            android:name=".contentProvider.BookContentProvider"
             android:permission="com.bingyan.PROVIDER"
             android:process=":provider"/>
-        <activity android:name=".sql.ProviderActivity"/>
+        <activity android:name=".contentProvider.ProviderActivity"/>
     </application>
 
 </manifest>
